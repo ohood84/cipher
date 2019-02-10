@@ -46,14 +46,14 @@ finalstring=reversestring(codestring);
 alert(finalstring);
 
 $(function(){
-$("img/show.jpg").click(function(){
-  alert(str);
-$("img/show.png").hide();
-
+$(".showorginaltext").click(function(){
+ // $(".showorginaltext").hide();
+ alert(str);
 });
 
-$("img").click(function(){
+$(".showencodedtext").click(function(){
+   // $(".showencodedtext").show();
 
-  alert(finalstring);
-});
+   alert(finalstring);
+ });
 });
